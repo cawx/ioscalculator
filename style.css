@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #1C1C1C;
+}
+
+button {
+    font-size: 1.7em;
+    font-weight: 500;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    margin: 3px;
+    background-color: #505050;
+    border: none;
+}
+
+button:active {
+    filter: brightness(150%);
+}
+#act-btn:active {
+    color: #e28502;
+    background-color: white;
+}
+
+#result {
+    color: white;
+    text-align: right;
+    font-size: 3em;
+    margin-bottom: 10px;
+    margin-right: 7.5%;
+}
+
+#act-btn {
+    background-color: #FF9500;
+}
+#act-btn:focus {
+    background-color: white;
+}
+.extra-btn {
+    color: #1C1C1C;
+    background-color: #D4D4D2;
+}
